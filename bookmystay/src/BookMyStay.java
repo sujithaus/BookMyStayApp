@@ -62,7 +62,7 @@ class TrainConsistManager {
     public void displayConsist() {
         System.out.println("\n--- Current Train Composition ---");
         if (consist.isEmpty()) {
-            System.out.println("The train has no bogies attached.");
+            System.out.println(" The train has no bogies attached.");
         } else {
             for (int i = 0; i < consist.size(); i++) {
                 System.out.println(i + ": " + consist.get(i));
