@@ -3,8 +3,7 @@ import java.util.List;
 
 public class BookMyStay {
     static void main() {
-        System.out.println("Train Consist Managment App");
-        List<String> trainConsist = new ArrayList<>();
-        System.out.println("Train intialized sucessfully");
+ System.out.println("UC2 -Add Passenger Bogies to Train");
+ List<String> passengerBogies = new ArrayList<>();
     }
 }
